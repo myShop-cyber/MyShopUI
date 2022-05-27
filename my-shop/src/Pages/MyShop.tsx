@@ -1,11 +1,14 @@
 import { Box } from '@mui/material'
 import React from 'react'
+import Footer from '../Component/Footer'
+import Header from '../Component/Header'
 
 const MyShop = () => {
   return (
     <Box>
-        <div>Header</div>
-        <div>Footer</div>
+        <Header />
+        <>Body</>
+        <Footer />
     </Box>
   )
 }
